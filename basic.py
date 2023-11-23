@@ -126,7 +126,10 @@ sorted_y, indices = torch.sort(y, dim=0, descending=False)
 
 x = torch.tensor([1,0,1,1,1], dtype=torch.bool)
 z = torch.any(x)
-print(z)
+# print(z)
+
+# Tensor Indexing
+
 
 
 
